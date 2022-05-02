@@ -109,7 +109,7 @@ function mostrarUnicornios(arrayUnicornios) {
                 </div>
         
     `;
-/* <button oncLick="modificarUnicornio('${element._id}')" type="button"> MODIFICAR </button> */
+
     modificar.addEventListener("click", function (){
       modificarUnicornio(element._id);
     });
@@ -169,40 +169,4 @@ function modificarUnicornio(id) {
 btnCrear.addEventListener("click", crearUnicornio);
 obtenerUnicornios();
 
-//validacion del formulario agregar
 
-
-
-//Metodo
-
-/* // Metodo get / obtener datos. */
-// function renderUnicornio(imagen){
-//     const image = document.createElement('img')
-//     image.id = "unicornio"
-//     image.src = imagen
-//     card.appendChild(image)
-
-//    /* imgUnicornio.src = image.toString() */
-// }
-
-// function obtenerUnicornios(){
-//     fetch("https://unicorns-api.herokuapp.com/api/v1/unicorns")
-//         .then(response => response.json())
-//         .then(data =>  {
-//             console.log(data)
-//             let imagen = data[1].image
-//             renderUnicornio(imagen)
-//         }
-
-//             //
-//                 )
-//         .catch(error=>(console.log(error)))
-//     }
-
-// form.addEventListener("submit",e=> {
-//   e.preventDefault()
-//   let warning = ""
-//   if(inputEdad.Value.length >9){
-//     console.log("ES mayor que 9")
-//     alert("El avatar no puede ser mayor de 9 años")
-//   }
