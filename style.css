@@ -1,0 +1,27 @@
+
+section{
+    background: rgb(131,58,180);
+    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(187,166,123,0.3302540415704388) 46%, rgba(242,146,11,1) 100%);
+}
+
+@media(min-width:768px)
+{
+    .dos-columnas{
+        text-align: center;
+        display:grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 2 rem;
+
+    }
+}
+/* 
+    .visualCard{
+        text-align: center; 
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,143,29,1) 60%, rgba(252,176,69,1) 100%);
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1em;
+        gap: 2 rem;
+    }
+} */
